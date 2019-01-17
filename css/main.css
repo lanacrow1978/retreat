@@ -225,45 +225,72 @@ header figure(
 )
 
 
+/*footer*/
+
 footer {
-    /*color: #ffffff;*/
+flex-direction: column;
     text-align: center;
-    flex-direction: column;
 }
 
+
 footer p {
-  margin: 0;
+    margin: 50px 0;
+
 }
+
+
+footer .contact {
+    width: 100%;
+    text-align: center; 
+    
+}
+
+.social {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+}
+
 
 footer .social-icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-top: 2.5em;
+   
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .social-icons p {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #527158;
+    width: 40px;
+    height: 40px;
+    margin: 0 1em;
+      
 }
 
-footer .social {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 footer .content-wrapper {
-    width: 55%;
+    width: 90%;
     margin: 50px 0;
 }
 
-footer .contact {
-  margin-bottom: 50px;
-}
 
 footer .copyright {
-  margin: 20px 0;
+    width: 100%;
+    margin: 20px 0;
+   text-align: center;
 }
 
 
