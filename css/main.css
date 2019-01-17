@@ -140,7 +140,7 @@ p {
 }
 
 figure {
- 
+  margin: 0;
 }
  
 address {
@@ -152,6 +152,9 @@ address {
     margin: 50px 0;
 }
 
+img {
+    width: 100%;
+}
 
 /*--------base styles mobile----------*/
 
@@ -274,6 +277,9 @@ footer .copyright {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+    background-size: cover;
+    height: 37.5em;
     
 }
 
@@ -332,7 +338,10 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
    /*color: 000000;*/
+background: url('../img/dark-background-retreat.jpg') no-repeat center;
+    background-size: cover;
 }
+
 
 .features .features-items {
   display: flex;
@@ -375,9 +384,7 @@ input[type=button] {
     color: #e2e3ed;
 }
 
-.reviews article {
-    
-}
+
 
 .reviews h2 {
   margin-bottom: 40px;
@@ -389,14 +396,7 @@ input[type=button] {
     margin: 20px 0;
 }
 
-/*.reviews h2 {
-  margin-bottom: 40px;
-}
 
-.reviews h3 {
-  width: 55%;
-  margin: 20px 0;
-}*/
 /*=========About page=========*/
 
 .mission {
@@ -654,21 +654,30 @@ aside .content-wrapper {
     }
 
 /*reviews*/
+    
 
 .reviews h2 {
-    width: 70%;
+    width: 90%;
 }
 
-.reviews article {
-    display: flex;
-    justify-content: space-between;
-   
-}
-    
-    .reviews article div {
+ 
+  .reviews article div {
     width: 49%;
   }
-
+    
+    .reviews article figure {
+        width: 49%;
+    }
+    
+    .reviews article {
+        display: flex;
+        justify-content: space-between;
+    } 
+    
+    .reviews h3 {
+    width: 55%;
+    margin: 0;
+}
 
 /*footer styles*/
 
@@ -818,8 +827,15 @@ flex-basis: 33%;
     
    /* Reviews */
   .reviews article div {
-    width: 42%;
-  }  
+    width: 40%;
+  } 
+    
+    
+    .reviews h3 {
+        font-size: 1.6em;
+        width: 60%;
+        margin-bottom: 5%;
+    }
     
  /*-------About page-------*/ 
     
