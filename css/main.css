@@ -346,7 +346,7 @@ background: url('../img/dark-background-retreat.jpg') no-repeat center;
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   flex-flow: row wrap;
 }
 
@@ -358,7 +358,6 @@ background: url('../img/dark-background-retreat.jpg') no-repeat center;
 
 .features p {
   text-align: center;
-  margin: 0;
 }
 
 
@@ -368,6 +367,10 @@ background: url('../img/dark-background-retreat.jpg') no-repeat center;
 
 */
 
+.features i {
+    font-size: 3.75em;
+    margin-bottom: 1em;
+}
 
 .features-item-description p {
     
