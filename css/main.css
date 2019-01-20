@@ -380,7 +380,6 @@ input[type=button] {
     display: flex;
   justify-content: center;
   flex-flow: row wrap;
-   /*color: 000000;*/
 background: url('../img/dark-background-retreat.jpg') no-repeat center;
     background-size: cover;
 }
@@ -513,16 +512,19 @@ background: url('../img/dark-background-retreat.jpg') no-repeat center;
   flex-flow: row wrap;
     color: #e2e3ed;
     background-color: #527158;
+
 }
 
 .faq .content-wrapper {
 margin: 50px 0 0 0;
-  display: flex;
+  /*display: flex;
   justify-content: center;
   align-items: baseline;
-  flex-flow: row wrap;
-    
-}
+  flex-flow: row wrap;*/
+   
+  }
+
+
 
 .faq h2 {
   margin-bottom: 40px;
@@ -539,7 +541,10 @@ margin: 50px 0 0 0;
 
 .faq-content {
   margin-bottom: 50px;
+
 }
+
+
 
 
 
@@ -802,13 +807,19 @@ footer .contact {
 
 
 .faq .content-wrapper {
-    justify-content: space-between;
+ justify-content: space-between;
+  display: flex;
+  align-items: baseline;
+  flex-flow: row wrap;
+   
+  }
 
-}
+
+
 
 .faq-content {
 
-    flex-basis: 40%; 
+    flex-basis: 45%; 
 }
 
 .faq h2 {
@@ -908,8 +919,8 @@ flex-basis: 33%;
   }
 
     
-    .faq-content {
-    flex-basis: 40%;
+   .faq-content {
+   flex-basis: 45%;
   }
     
     
